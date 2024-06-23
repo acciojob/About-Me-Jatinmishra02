@@ -1,1 +1,87 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
 
+.profile-container {
+    width: 70%;
+    margin: 20px auto;
+    background: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.profile-header {
+    text-align: center;
+}
+
+.profile-header h1 {
+    margin-bottom: 10px;
+}
+
+.profile-content {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.profile-left {
+    flex: 1;
+    padding: 20px;
+    border-right: 1px solid #ccc;
+}
+
+.profile-right {
+    flex: 2;
+    padding: 20px;
+}
+
+.profile-info p {
+    margin: 5px 0;
+}
+
+.skills {
+    margin-top: 20px;
+}
+
+.skills h2 {
+    margin-bottom: 10px;
+}
+
+.skill {
+    margin-bottom: 10px;
+}
+
+.skill span {
+    display: inline-block;
+    width: 100px;
+}
+
+.skill-bar {
+    display: inline-block;
+    width: calc(100% - 110px);
+    background: #eee;
+    height: 20px;
+    position: relative;
+}
+
+.skill-bar div {
+    height: 100%;
+    background: #3b82f6;
+}
+
+.skill-bar .react { width: 95%; }
+.skill-bar .css { width: 95%; }
+.skill-bar .javascript { width: 95%; }
+.skill-bar .nodejs { width: 90%; }
+.skill-bar .mongodb { width: 90%; }
+.skill-bar .cplusplus { width: 99%; }
+.skill-bar .python { width: 99%; }
+.skill-bar .batch { width: 99%; }
+.skill-bar .aws { width: 93%; }
+.skill-bar .hadoop { width: 93%; }

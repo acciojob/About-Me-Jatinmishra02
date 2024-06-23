@@ -1,1 +1,3 @@
-// Your code here.
+document.addEventListener('DOMContentLoaded', function() {
+    // JavaScript code can be added here if needed in the future
+});
